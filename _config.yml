@@ -1,0 +1,69 @@
+### Website vars
+trupro:
+  # metadata
+  name: TruPro
+  description: 
+  author:
+    name: Paul van der Westhuizen
+    url: http://westhouseit.co.uk
+  lang: en
+  # nav
+  topbar:
+    toggle: Menu
+    right:
+      - name: Contact
+        url: /contact/
+        class: small button
+
+### Jeykll Config ###
+
+# Where things are
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+data_source: ./_data
+collections: null
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:
+  - CNAME
+  - Gemfile
+  - LICENSE
+  - Rakefile
+  - README.md
+  - vendor/
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins
+whitelist: []
+gems:      []
+
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+# compress layout in _trupro/compress.html
+compress_html:
+  clippings: all
+  endings: all
+  comments: ["<!--", "-->"]
+  ignore:
+    envs: [travis]

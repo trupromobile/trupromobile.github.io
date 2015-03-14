@@ -1,0 +1,76 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html dir="ltr" lang="{{ site.trupro.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  {% include trupro/robots.html %}
+  {% include trupro/meta-description.html %}
+
+  <link rel="stylesheet" href="/stylesheets/main.css">
+
+</head>
+<body>
+
+  <div class="top-bar" data-topbar id="topbar">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="/">{{ site.trupro.name }}</a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#topbar"><span>{{ site.trupro.topbar.toggle }}</span></a></li>
+    </ul>
+    <div class="top-bar-section">
+      {% if site.trupro.topbar.left %}
+      <ul class="left">
+      {% for item in site.trupro.topbar.left %}
+        <li{% if item.class %} class="has-form"{% endif %}>
+          <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if site.trupro.topbar.right %}
+      <ul class="right">
+      {% for item in site.trupro.topbar.right %}
+        <li{% if item.class %} class="has-form"{% endif %}>
+          <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+
+  {{ content }}
+
+  <div class="row">
+    <div class="column">
+      <hr>
+    </div>
+    <div class="small-8 columns">
+      <p>&copy; 2014–2015 Tru Pro Mobile Technicians, LLC.</p>
+    </div>
+    <div class="small-4 columns">
+      <p class="text-right menu-icon"><a href="#topbar">&#x25B2;</a></p>
+    </div>
+  </div>
+
+<!--
+  <script src="/js/vendor/jquery.js"></script>
+  <script src="/js/vendor/fastclick.js"></script>
+  <script src="/js/foundation.min.js"></script>
+  <script>$(document).foundation();</script>
+-->
+</body>
+</html>
