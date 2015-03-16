@@ -1,19 +1,24 @@
 ### Website vars
 trupro:
-  # metadata
-  name: TruPro
-  description: 
-  author:
-    name: Paul van der Westhuizen
-    url: http://westhouseit.co.uk
-  lang: en
-  # nav
-  topbar:
-    toggle: Menu
-    right:
-      - name: Contact
-        url: /contact/
-        class: small button
+    # metadata
+    name: TruPro
+    description: 
+    author:
+        name: Paul van der Westhuizen
+        url: http://westhouseit.co.uk
+    lang: en
+    # params, e.g. for Foundation build
+    colours:
+            primary: #f7b901
+            secondary: #2f2f2f
+    # nav
+    topbar:
+        toggle: Menu
+        right:
+            - name: Contact
+              url: /contact/
+              class: small button
+  
 
 ### Jeykll Config ###
 
@@ -62,8 +67,8 @@ timezone:      null
 
 # compress layout in _trupro/compress.html
 compress_html:
-  clippings: all
-  endings: all
-  comments: ["<!--", "-->"]
-  ignore:
+clippings: all
+endings: all
+comments: ["<!--", "-->"]
+ignore:
     envs: [travis]
