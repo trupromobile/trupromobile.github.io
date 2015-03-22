@@ -1,5 +1,16 @@
 .logo {
-    max-width: 350px;
+    max-width: 200px;
     padding: 20px;
     margin: 0 auto;
+}
+
+/* Colours */
+.greyBG {
+    background-color: #575756;
+}
+.silverBG {
+    background-color: #000000;
+}
+.yellowBG {
+    background-color: #f7b901;
 }
