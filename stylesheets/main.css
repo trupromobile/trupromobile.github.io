@@ -5,7 +5,9 @@
 }
 
 /* Colours */
-.greyBG {
+.greyBG,
+.top-bar,
+.top-bar-section .has-form {
     background-color: #575756;
 }
 .silverBG {
