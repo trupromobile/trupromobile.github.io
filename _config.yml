@@ -1,7 +1,8 @@
 ### Website vars
 trupro:
     # metadata
-    name: TruPro
+    name: Tru Pro Mobile Technicians
+    shortname: TruPro
     description: 
     author:
         name: Paul van der Westhuizen
