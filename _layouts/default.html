@@ -7,7 +7,7 @@ layout: compress
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ page.title }}</title>
+        <title>{{ site.trupro.name }}{% if page.title %} | {{ page.title}}{% endif %}</title>
         {% include robots.html %}
         {% include meta-description.html %}
 
@@ -22,7 +22,7 @@ layout: compress
             <div class="top-bar" data-topbar id="topbar">
                 <ul class="title-area">
                     <li class="name">
-                        <h1><a href="/">{{ site.trupro.name }}</a></h1>
+                        <h1><a href="/">{{ site.trupro.shortname }}</a></h1>
                     </li>
                     <li class="toggle-topbar menu-icon"><a href="#topbar"><span>{{ site.trupro.topbar.toggle }}</span></a></li>
                 </ul>
@@ -61,7 +61,7 @@ layout: compress
                 <div class="logo"><img src="/images/ui/logo.png"></div>
             </div>
         </div>
-        
+
         {{ content }}
 
         <div class="row">
