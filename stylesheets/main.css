@@ -61,7 +61,6 @@ lightGrey {
 }
 
 .infoList {
-    
 }
 .infoList__item {
     display: inline;
@@ -79,6 +78,13 @@ lightGrey {
     margin-right: .5rem;
 }
 .infoList__text {
-    color: #52525252;
+    color: #525252;
     margin-top: .3rem;
+}
+
+.basicList {
+    list-style: url(/images/ui/arrow.png);
+}
+.basicList__item {
+    
 }
