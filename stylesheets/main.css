@@ -34,12 +34,14 @@ yellow {
 
 
 .infoBox {
-    border-radius: 3px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 .infoBox__header {
     padding: 1rem;
-    border: 0;
+    margin: 0;
     font-size: 1.5rem;
 }
 .infoBox__content {
+    margin: 0;
 }
