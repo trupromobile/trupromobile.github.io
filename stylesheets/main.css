@@ -8,7 +8,7 @@
 .greyBG,
 .top-bar,
 .top-bar-section .has-form {
-    background-color: #575756;
+    background-color: #525252;
 }
 .lightGreyBG {
     background-color: #cccccc;
@@ -28,8 +28,22 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#f6f6f6', GradientType=0 );
 }
 
+.greyGradient {
+    background: rgba(42,42,42,1);
+    background: -moz-linear-gradient(top, rgba(42,42,42,1) 0%, rgba(82,82,82,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(42,42,42,1)), color-stop(100%, rgba(82,82,82,1)));
+    background: -webkit-linear-gradient(top, rgba(42,42,42,1) 0%, rgba(82,82,82,1) 100%);
+    background: -o-linear-gradient(top, rgba(42,42,42,1) 0%, rgba(82,82,82,1) 100%);
+    background: -ms-linear-gradient(top, rgba(42,42,42,1) 0%, rgba(82,82,82,1) 100%);
+    background: linear-gradient(to bottom, rgba(42,42,42,1) 0%, rgba(82,82,82,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#525252', GradientType=0 );
+}
+
 yellow {
     color: #f7b901;
+}
+lightGrey {
+    color: #aaaaaa
 }
 
 
@@ -44,4 +58,26 @@ yellow {
 }
 .infoBox__content {
     margin: 0;
+}
+
+.infoList {
+    
+}
+.infoList__item {
+    background-color: #f7b901;
+    padding: .25rem .5rem .25rem 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.infoList__item:before {
+    content: "\226B";
+    color: #f6f6f6;
+    background-color: #525252;
+    padding: .25rem .5rem .25rem .5rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: .5rem;
+}
+.infoList__text {
+    color: #aaaaaa;
 }
