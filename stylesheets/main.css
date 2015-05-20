@@ -64,10 +64,10 @@ lightGrey {
     
 }
 .infoList__item {
+    display: inline;
     background-color: #f7b901;
     padding: .25rem .5rem .25rem 0;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
 }
 .infoList__item:before {
     content: "\226B";
@@ -79,5 +79,6 @@ lightGrey {
     margin-right: .5rem;
 }
 .infoList__text {
-    color: #aaaaaa;
+    color: #52525252;
+    margin-top: .3rem;
 }
