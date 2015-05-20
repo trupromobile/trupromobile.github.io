@@ -39,10 +39,10 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#525252', GradientType=0 );
 }
 
-yellow {
+.yellow {
     color: #f7b901;
 }
-lightGrey {
+.lightGrey {
     color: #aaaaaa
 }
 
