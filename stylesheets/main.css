@@ -2,6 +2,9 @@ html {
     height: auto; /* To fix gradient on long pages */
     min-height: 100%; /* To fix gradient on short pages */
 }
+.top-bar .title-area {
+    position: static; /* Fix absolute positioned logo */
+}
 
 .homeHero {
     border-radius: 10px;
@@ -31,6 +34,7 @@ html {
 .logo {
     bottom: 10px;
     height: 100px;
+    left: 0.9375rem;
     position: absolute;
     z-index: 99;
 }
