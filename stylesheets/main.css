@@ -10,10 +10,17 @@ html {
 }
 .aboveNav {
 }
-.telephone {
+.phone {
     float: right;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: .75rem 1.25rem .7625rem 2.25rem;
+}
+.phone:before {
+    content: "&#128222;";
 }
 .logo {
+    bottom: 10px;
     height: 100px;
     position: absolute;
     z-index: 99;
@@ -60,6 +67,9 @@ li.yellow {
 }
 .lightGrey {
     color: #aaaaaa
+}
+.black {
+    color: #222222;
 }
 
 
