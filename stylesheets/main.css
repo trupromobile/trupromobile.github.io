@@ -1,5 +1,6 @@
 html {
-    height: auto; /* To fix gradient */
+    height: auto; /* To fix gradient on long pages */
+    min-height: 100%; /* To fix gradient on short pages */
 }
 
 .homeHero {
