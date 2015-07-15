@@ -8,10 +8,15 @@ html {
     margin: 1rem 0;
     overflow: hidden;
 }
+.aboveNav {
+}
+.telephone {
+    float: right;
+}
 .logo {
-    max-width: 200px;
-    padding: 20px;
-    margin: 0 auto;
+    height: 100px;
+    position: absolute;
+    z-index: 99;
 }
 
 /* Colours */
