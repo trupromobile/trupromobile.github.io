@@ -17,7 +17,7 @@ html {
     padding: .75rem 1.25rem .7625rem 2.25rem;
 }
 .phone:before {
-    content: "&#128222;";
+    content: "\1f4de";
 }
 .logo {
     bottom: 10px;
