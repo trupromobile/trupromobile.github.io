@@ -1,3 +1,8 @@
+.homeHero {
+    border-radius: 10px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
 .logo {
     max-width: 200px;
     padding: 20px;
@@ -49,8 +54,8 @@ li.yellow {
 
 
 .infoBox {
-    overflow: hidden;
     border-radius: 10px;
+    overflow: hidden;
 }
 .infoBox__header {
     padding: 1rem;
