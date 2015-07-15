@@ -18,34 +18,37 @@ layout: compress
     </head>
     <body class="silverGradient">
 
-        <div class="contain-to-grid greyBG">
-            <div class="top-bar" data-topbar id="topbar">
-                <ul class="title-area">
-                    <li class="name">
-                        <h1><a href="/">{{ site.trupro.shortname }}</a></h1>
-                    </li>
-                    <li class="toggle-topbar menu-icon"><a href="#topbar"><span>{{ site.trupro.topbar.toggle }}</span></a></li>
-                </ul>
-                <div class="top-bar-section">
-                    {% if site.trupro.topbar.left %}
-                    <ul class="left">
-                        {% for item in site.trupro.topbar.left %}
-                        <li{% if item.class %} class="has-form"{% endif %}>
-                            <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+        <div class="masthead">
+            <div class="contain-to-grid above"></div>
+            <div class="contain-to-grid greyBG">
+                <div class="top-bar" data-topbar id="topbar">
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="/">{{ site.trupro.shortname }}</a></h1>
                         </li>
-                        {% endfor %}
+                        <li class="toggle-topbar menu-icon"><a href="#topbar"><span>{{ site.trupro.topbar.toggle }}</span></a></li>
                     </ul>
-                    {% endif %}
+                    <div class="top-bar-section">
+                        {% if site.trupro.topbar.left %}
+                        <ul class="left">
+                            {% for item in site.trupro.topbar.left %}
+                            <li{% if item.class %} class="has-form"{% endif %}>
+                                <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
 
-                    {% if site.trupro.topbar.right %}
-                    <ul class="right">
-                        {% for item in site.trupro.topbar.right %}
-                        <li{% if item.class %} class="has-form"{% endif %}>
-                            <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
+                        {% if site.trupro.topbar.right %}
+                        <ul class="right">
+                            {% for item in site.trupro.topbar.right %}
+                            <li{% if item.class %} class="has-form"{% endif %}>
+                                <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
