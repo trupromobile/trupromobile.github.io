@@ -13,8 +13,8 @@ trupro:
             primary: #f7b901
             secondary: #2f2f2f
     # nav
-#    topbar:
-#        toggle: Menu
+    topbar:
+        toggle: Menu
 #        right:
 #            - name: Contact
 #              url: /contact/
