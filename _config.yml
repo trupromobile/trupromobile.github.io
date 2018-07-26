@@ -13,12 +13,12 @@ trupro:
             primary: #f7b901
             secondary: #2f2f2f
     # nav
-    topbar:
-        toggle: Menu
-        right:
-            - name: Contact
-              url: /contact/
-              class: small button
+#    topbar:
+#        toggle: Menu
+#        right:
+#            - name: Contact
+#              url: /contact/
+#              class: small button
   
 
 ### Jeykll Config ###
