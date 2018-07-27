@@ -26,9 +26,9 @@ trupro:
 # Where things are
 source:      .
 destination: ./_site
-plugins_dir:     ./_plugins
-layouts_dir:     ./_layouts
-data_dir: ./_data
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
+data_dir:    ./_data
 collections: null
 
 # Handling Reading
@@ -53,7 +53,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-plugins:      []
+plugins:   []
 
 # Conversion
 markdown:    kramdown

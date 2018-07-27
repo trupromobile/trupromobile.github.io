@@ -47,5 +47,13 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 
+# Build & Deploy #
+####################
+# Jekyll
+_site/
+.jekyll-metadata
+# Docker-compose
+docker-compose.override.yml
+
 # Notepad++ backups #
 *.bak
