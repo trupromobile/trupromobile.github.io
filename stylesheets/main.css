@@ -11,6 +11,9 @@ body {
 }
 
 /* Header area */
+.masthead {
+    margin-bottom: 1rem;
+}
 .companyName {
     font-size: 2rem;
 }
