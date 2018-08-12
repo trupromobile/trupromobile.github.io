@@ -2,16 +2,23 @@
 trupro:
     # metadata
     name: Tru Pro Mobile Technicians
-    shortname: TruPro
-    description: 
+    description:
     author:
         name: Paul van der Westhuizen
         url: http://westhouseit.co.uk
     lang: en
+    # site variables
+    name-legal: Tru Pro Mobile Technicians, LLC
+    name-short: TruPro
+    phone: (404) 481-0876
+    phone-short: 4044810876
+    email: trupromobiletechs@gmail.com
     # params, e.g. for Foundation build
     colours:
             primary: #f7b901
             secondary: #2f2f2f
+            heading: rgba(34, 139, 154, 0.9)
+            heading-services: rgb(255, 140, 0)
     # nav
     topbar:
         toggle: Menu
